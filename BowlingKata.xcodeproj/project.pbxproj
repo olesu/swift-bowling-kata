@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		37E1FE862C3AAF8C00C5356D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E1FE852C3AAF8C00C5356D /* main.swift */; };
+		37E1FE972C3AB08000C5356D /* BowlingKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E1FE962C3AB08000C5356D /* BowlingKataTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +26,19 @@
 /* Begin PBXFileReference section */
 		37E1FE822C3AAF8C00C5356D /* BowlingKata */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BowlingKata; sourceTree = BUILT_PRODUCTS_DIR; };
 		37E1FE852C3AAF8C00C5356D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		37E1FE942C3AB08000C5356D /* BowlingKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BowlingKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E1FE962C3AB08000C5356D /* BowlingKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowlingKataTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		37E1FE7F2C3AAF8C00C5356D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E1FE912C3AB08000C5356D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				37E1FE842C3AAF8C00C5356D /* BowlingKata */,
+				37E1FE952C3AB08000C5356D /* BowlingKataTests */,
 				37E1FE832C3AAF8C00C5356D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				37E1FE822C3AAF8C00C5356D /* BowlingKata */,
+				37E1FE942C3AB08000C5356D /* BowlingKataTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +72,14 @@
 				37E1FE852C3AAF8C00C5356D /* main.swift */,
 			);
 			path = BowlingKata;
+			sourceTree = "<group>";
+		};
+		37E1FE952C3AB08000C5356D /* BowlingKataTests */ = {
+			isa = PBXGroup;
+			children = (
+				37E1FE962C3AB08000C5356D /* BowlingKataTests.swift */,
+			);
+			path = BowlingKataTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +102,23 @@
 			productReference = 37E1FE822C3AAF8C00C5356D /* BowlingKata */;
 			productType = "com.apple.product-type.tool";
 		};
+		37E1FE932C3AB08000C5356D /* BowlingKataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37E1FE982C3AB08000C5356D /* Build configuration list for PBXNativeTarget "BowlingKataTests" */;
+			buildPhases = (
+				37E1FE902C3AB08000C5356D /* Sources */,
+				37E1FE912C3AB08000C5356D /* Frameworks */,
+				37E1FE922C3AB08000C5356D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BowlingKataTests;
+			productName = BowlingKataTests;
+			productReference = 37E1FE942C3AB08000C5356D /* BowlingKataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -93,6 +130,9 @@
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					37E1FE812C3AAF8C00C5356D = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					37E1FE932C3AB08000C5356D = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
@@ -111,9 +151,20 @@
 			projectRoot = "";
 			targets = (
 				37E1FE812C3AAF8C00C5356D /* BowlingKata */,
+				37E1FE932C3AB08000C5356D /* BowlingKataTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37E1FE922C3AB08000C5356D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		37E1FE7E2C3AAF8C00C5356D /* Sources */ = {
@@ -121,6 +172,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				37E1FE862C3AAF8C00C5356D /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E1FE902C3AB08000C5356D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E1FE972C3AB08000C5356D /* BowlingKataTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +326,36 @@
 			};
 			name = Release;
 		};
+		37E1FE992C3AB08000C5356D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8J63Q6AZ7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.BowlingKataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		37E1FE9A2C3AB08000C5356D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8J63Q6AZ7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.BowlingKataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -284,6 +373,15 @@
 			buildConfigurations = (
 				37E1FE8A2C3AAF8C00C5356D /* Debug */,
 				37E1FE8B2C3AAF8C00C5356D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37E1FE982C3AB08000C5356D /* Build configuration list for PBXNativeTarget "BowlingKataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E1FE992C3AB08000C5356D /* Debug */,
+				37E1FE9A2C3AB08000C5356D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
